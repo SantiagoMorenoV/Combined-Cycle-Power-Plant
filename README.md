@@ -9,7 +9,7 @@ This project focuses on performing regression analysis on the "Combined Cycle Po
 The "Combined Cycle Power Plant" dataset contains the following features (variables):
 
 - **Temperature (T):** The temperature measured in °C.
-- **Ambient Pressure (AP):** The ambient pressure measured in millibars.
+- **Ambient Pressure (AP):** The ambient pressure is measured in millibars.
 - **Relative Humidity (RH):** The relative humidity measured in percent.
 - **Exhaust Vacuum (V):** The exhaust vacuum measured in cm Hg.
 - **Electrical Energy Output (PE):** The electrical energy output of the power plant measured in MW.
@@ -22,7 +22,7 @@ The regression analysis utilizes five regression models: multiple linear regress
 
 ## Results
 
-Based on the determination coefficients obtained for each model, the best-performing model for predicting the electrical energy output is [the random forest ](https://github.com/SantiagoMorenoV/Combined-Cycle-Power-Plant_Regs/blob/main/Models/Combined_Cycle_Power_Plant_Random_Forest_Reg.ipynb "the random forest ")regression. This model achieved the highest determination coefficient among all the models evaluated.
+Based on the determination coefficients obtained for each model, the best-performing model for predicting the electrical energy output is [the random forest ](https://github.com/SantiagoMorenoV/Combined-Cycle-Power-Plant_Regs/blob/main/Models/Combined_Cycle_Power_Plant_Random_Forest_Reg.ipynb "the random forest ")regression. This model achieved the highest determination coefficient (**96.16%**) among all the models evaluated.
 
 ## Limitations and Future Work
 
